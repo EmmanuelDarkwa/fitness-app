@@ -115,6 +115,7 @@ const Login = ({navigation}) => {
                     title='Log In'
                     color={COLORS.purple}
                     filled
+                    onPress={()=>navigation.navigate('HomeScreen')}
                     style={{
                         marginTop: 18,
                         marginBottom: 4
